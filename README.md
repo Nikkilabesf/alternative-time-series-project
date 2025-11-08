@@ -4,7 +4,6 @@
   <img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square">
   <img src="https://img.shields.io/badge/Model-ARIMA-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Language-Python_3.12-yellow?style=flat-square">
-  <img src="https://img.shields.io/badge/IDE-VS_Code-purple?style=flat-square">
   <img src="https://img.shields.io/badge/Framework-Statsmodels-orange?style=flat-square">
 </p>
 
