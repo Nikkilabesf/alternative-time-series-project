@@ -46,14 +46,45 @@ It detects trends, seasonality, and noise to forecast future performance and gro
 | Best Order | ARIMA (1,1,1) | ✅ |
 | Forecast Horizon | 6 Months | 📊 |
 
----
+
 
 ### 📊 Visualization Example
-```python
-plt.figure(figsize=(10,5))
-plt.plot(train.index, train['sales'], label='Train')
-plt.plot(test.index, test['sales'], label='Test')
-plt.plot(test.index, forecast, label='Forecast', color='magenta')
-plt.legend()
-plt.title('ARIMA Forecast vs Actual Sales')
-plt.show()
+
+<img width="1287" height="767" alt="0df7ab91-ca52-4c06-b041-3f216559f3ff" src="https://github.com/user-attachments/assets/823ce22c-f5cb-4e42-a4f0-c37022977a83" />
+
+
+
+| Feature       | Description                                  |
+| ------------- | -------------------------------------------- |
+| 🧠 SARIMAX    | Handle seasonality and regressors            |
+| ⚡ Auto-ARIMA  | Automate parameter tuning                    |
+| 🧬 LSTM       | Deep learning version                        |
+| 📊 Dashboard  | Interactive Gradio/Streamlit forecast viewer |
+| ☁️ Deployment | Deploy API via HuggingFace or Render         |
+
+
+
+🧰 Project Structure
+├── sales.csv
+├── sales_forecast.ipynb
+├── models/
+│   └── arima_sales_model.pkl
+├── README.md
+└── requirements.txt
+
+
+
+👩🏽‍💻 Author
+Tenika Powell
+🌸 Data Science & Machine Learning Engineer | Pretty Tech Founder
+
+🌐 GitHub: @Nikkilabesf
+
+💌 Email: powell.tenika.n@gmail.com
+
+💫 Portfolio: Coming soon
+
+“Where data meets design — Pretty Tech projects blend analytics with aesthetics.”
+
+
+<p align="center"> <img src="https://img.shields.io/badge/Made_with💖by-PrettyTech_Team-pink?style=for-the-badge"> </p> `
